@@ -16,7 +16,7 @@ terraform {
 
   backend "s3" {
 
-    bucket = "advanced-end-to-end-devsecops"
+    bucket = "kubernetesdevopsdata"
 
     key = "state/terraform.tfstate"
 
@@ -24,7 +24,7 @@ terraform {
 
     encrypt = true
 
-    dynamodb_table = "Terraform_lock"
+    dynamodb_table = "Kubernetes_devops"
 
   }
 
